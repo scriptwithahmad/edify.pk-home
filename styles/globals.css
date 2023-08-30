@@ -20,7 +20,9 @@ body {
 
 /* SWIPER CSS -------------------*/
 
-
+.HeroMainPage{
+  position: relative;
+}
 
 .slide {
   background-repeat: no-repeat;
@@ -67,6 +69,17 @@ body {
     max-width: 45%;
     color: #EDECEB;
   }
+}
+
+.HeroMainPage .heroInnerParts{
+  position: absolute;
+  height: 200px;
+  width: 80%;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #EDECEB;
+  z-index: 999;
 }
 
 /* SWIPER CSS -------------------*/
